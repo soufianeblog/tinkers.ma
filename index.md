@@ -38,4 +38,15 @@ Pour plus d'infos contacter nous par Whatsapp : <a target="_blank" href="https:/
 
 <p align="center"> 
  <img width="500"   src="assets/img/poster.png"  />
+ <br>
+</p>
+
+<h5 align="center">
+L’objectif de l’atelier :
+</h5>
+<p align="center">
+Présenter les bases de la programmation et de l'informatique : Offrir aux enfants une façon amusante et pratique de découvrir le code et de comprendre son fonctionnement.
+Stimuler la pensée logique et la résolution de problèmes : Le code aide à développer la logique, la créativité et la capacité à résoudre des problèmes.
+Encourager la curiosité pour les STEM (Science, Technologie, Ingénierie, Mathématiques) : Inviter les enfants à explorer les métiers scientifiques et technologiques.
+Établir un environnement d'apprentissage collaboratif et ludique : Offrir aux enfants la possibilité d'apprendre en s'amusant, tout en encourageant l'interaction et la coopération entre eux.
 </p>
