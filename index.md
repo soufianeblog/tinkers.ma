@@ -29,7 +29,13 @@ Atelier de Junior Inventor #1 - Pour les enfants
 
 <p align="center">
 Découvrez la robotique et le codage de manière ludique et créative. Pour les enfants de 11 à 17 ans.
+</p>
 
+
+<p align="center"> 
+
+<a class="button-5" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScDHTBjlK-vS47PIAqmvuT1oUga8dujyQFChl_q3ukESLDBPQ/viewform">S'inscrire</a>
+</p>
 
 <h4 align="center">
 L’objectif de l’atelier :
@@ -58,10 +64,11 @@ Présenter les bases de la programmation et de l'informatique : Offrir aux enfan
 
 
 Pour plus d'infos contacter nous par Whatsapp : <a target="_blank" href="https://wa.me/+212612257894">+212612257894</a>
-<br><br>
-<a class="button-5" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScDHTBjlK-vS47PIAqmvuT1oUga8dujyQFChl_q3ukESLDBPQ/viewform">S'inscrire</a>
 
+<br><br>
 </p>
+
+
 
 <p align="center"> 
  <img width="500"   src="assets/img/poster.png"  />
