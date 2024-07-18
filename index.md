@@ -53,8 +53,7 @@ Présenter les bases de la programmation et de l'informatique : Offrir aux enfan
 
 </ul>
  
- <br><br><br> 
-</p>
+ 
 
 
 
