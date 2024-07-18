@@ -5,6 +5,10 @@ title: "Acceuil"
 
 # Tinkers
 
+<p align="center">
+  ![Image](/assets/img/poster.png){: width="200" }
+</p>
+ 
 Bienvenue!
 
 Tinkers est une agence et centre qui offre des formations et des services dans le domaine d'informatique, digitale et de marketing.
