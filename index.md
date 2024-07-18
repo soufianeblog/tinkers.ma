@@ -8,9 +8,8 @@ title: "Acceuil"
 </p>
  
 <p align="center">
-Bienvenue!
-
-Tinkers est une agence et centre qui offre des formations et des services dans le domaine d'informatique, digitale et de marketing.
+Bienvenue!<br><br>
+Tinkers est une agence et centre qui offre des formations et des services dans le domaine digitales : Informatique, Robotique, Design et Marketing digitale.
 </p>
 
 ## Atelier de Junior Inventor #1 - Pour les enfants
