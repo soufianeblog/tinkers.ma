@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="fr">
 
-<head>
-  <script src="ssets/js/color-modes.js"></script>
+<head> 
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/slick.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tinkers</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/nav.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=1">
+  <link rel="stylesheet" href="assets/css/nav.css?v=1">
 </head>
 
 <body>
@@ -28,13 +29,16 @@
             <a class="nav-link active" aria-current="page" href="#">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#junior-inventor">Junior Inventor</a>
+            <a class="nav-link" href="#projects">Nos projets</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#nos-clients">Nos clients</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#nos-services">Nos services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ateliers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">À propos</a>
@@ -47,213 +51,236 @@
     </div>
   </nav>
 
-  <main class="container">
-    <div>
 
 
 
-      <div class="container">
-        <div class="row">
+  <div class="bg-primary  px-5   pb-4  ">
 
-          <div class="col-12 col-lg-8 col-md-12 col-sm-12">
-
-
-
-            <div id="junior-inventor" class="mb-2 p-4">
-              <div class="card bg-secondary mb-3">
-                <div class="card-header bg-primary text-white ">Ateliers</div>
-                <div class="card-body text-center  ">
-                  <p class="card-text ">
-                  <h1 class="fw-bold display-6">Junior Inventor #1</h1>
-                  <p class="text-muted mb-4">Atelier du robotique et du codage pour les enfants</p>
-                  Faites découvrir à vos enfants le plaisir d'apprendre la robotique et le codage de manière ludique et
-                  créative. Pour les enfants de 11 à 18 ans.
-                  <br> <br>
-                  <a class="btn btn-warning btn-lg" target="_blank"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScDHTBjlK-vS47PIAqmvuT1oUga8dujyQFChl_q3ukESLDBPQ/viewform">
-                    S'inscrire
-                  </a>
-                  </p>
-
-                  <img width="100%" src="assets/img/poster.png" />
-                  <br />
-
-                </div>
-
-                <div class="card-body ">
-                  <h4 class="fw-bold">
-                    Les objectifs de l’atelier
-                  </h4>
-                </div>
-
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    Présenter les bases de la programmation et de l'informatique : Offrir aux enfants une façon amusante
-                    et
-                    pratique de découvrir le code et de comprendre son fonctionnement.
-                  </li>
-                  <li class="list-group-item">
-                    Présenter les bases de la programmation et de l'informatique : Offrir aux enfants une façon amusante
-                    et
-                    pratique de découvrir le code et de comprendre son fonctionnement.
-                  </li>
-                  <li class="list-group-item">
-                    Stimuler la pensée logique et la résolution de problèmes : Le code aide à développer la logique, la
-                    créativité et la capacité à résoudre des problèmes.
-                  </li>
-                  <li class="list-group-item">
-                    Encourager la curiosité pour les STEM (Science, Technologie, Ingénierie, Mathématiques) : Inviter
-                    les enfants à explorer les métiers scientifiques et technologiques.
-                  </li>
-                  <li class="list-group-item">
-                    Établir un environnement d'apprentissage collaboratif et ludique : Offrir aux enfants la possibilité
-                    d'apprendre en s'amusant, tout en encourageant l'interaction et la coopération entre eux.
-                  </li>
-                </ul>
-
-                <div class="card-footer text-muted">
-                  Pour plus d'infos contacter nous par Whatsapp : <a target="_blank"
-                    href="https://wa.me/+212612257894">+212612257894</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          
-          <div class="col-12  col-lg-4 col-md-12 col-sm-12">
-
-
-            <div id="about" class=" p-4">
-              <div class="card bg-secondary mb-3">
-                <div class="card-header bg-primary text-white ">À propos - Qui somme nous?</div>
-                <div class="card-body">
-                  <p class="card-text"> 
-                  Tinkers est un centre qui offre des formations et ateliers et des services dans les domaines
-                  digitales et artistique: Coding, Robotique, Design et Dessin, Photographie, Français, Anglais.
-
-                  </p>
-                  <hr>
-                  <h4 class="fw-bold">Notre équipe</h4>
-                  <div>
-                    <p class="text-center">
-                      <img class="rounded-circle" src="assets/img/hicham.jpg" width="100" height="100">
-                    </p>
-                    <h5 class="fw-semibold text-center">Hicham El Kbadi</h5>
-                    <p class="text-center">Graphiste, Photographer, Formateur</p>
-                    <p class="text-center">
-                      <a target="_blank" class="btn btn-outline-primary"
-                        href="https://www.linkedin.com/in/hicham-el-kbadi/" role="button">LinkedIn</a>
-                    </p>
-                  </div>
-                  <div>
-                    <p class="text-center">
-                      <img class="rounded-circle" src="assets/img/soufiane.jpg" width="100" height="100">
-                    </p>
-                    <h5 class="fw-semibold text-center">Soufiane Gouiferda</h5>
-                    <p class="text-center">Développeur informatique, Formateur</p>
-                    <p class="text-center">
-                      <a  target="_blank" class="btn btn-outline-primary"
-                        href="https://www.linkedin.com/in/gouiferda/" role="button">LinkedIn</a>
-                    </p>
-                  </div>
-
-
-                </div>
-
-              </div>
-            </div>
-
-
-            <div id="nos-services" class="  p-4">
-              <div class="card bg-secondary mb-3">
-                <div class="card-header bg-primary text-white ">Nos services</div>
-                <div class="card-body">
-                  <p class="card-text">
-                    <span class="badge badge-pill border  border-primary text-primary">Conception graphique</span>
-                    <span class="badge badge-pill border  border-primary text-primary">Dévelopement des siteweb</span>
-                    <span class="badge badge-pill border  border-primary text-primary">Dévelopement des applications</span>
-                    <span class="badge badge-pill border  border-primary text-primary">Ateliers de photographie et dessin</span>
-                    <span class="badge badge-pill border  border-primary text-primary">Ateliers de coding et robotique</span>
-                    <span class="badge badge-pill border  border-primary text-primary">Impression</span>
-
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <p class="card-text">
-
-                  </p>
-                </div>
-
-              </div>
-            </div>
-
-            <div id="nos-clients" class="  p-4">
-              <div class="card bg-secondary mb-3">
-                <div class="card-header bg-primary text-white ">Nos clients</div>
-
-                <div class="card-body text-center">
-                  <h4 class="fw-bold">Ils nous font confiance</h4>
-                </div>
-
-                <div class="card-body text-center">
-
-
-                  <p class="card-text">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 mb-5">
-                      <img src="assets/clients/5.png" width="100$">
-                    </div>
-                    <div class="col-lg-12 col-md-12 mb-5">
-                      <img src="assets/clients/4.png" width="100$">
-                    </div>
-                    <div class="col-lg-12 col-md-12 mb-5">
-                      <img src="assets/clients/3.png" width="100$">
-                    </div>
-                    <div class="col-lg-12 col-md-12 mb-5">
-                      <img src="assets/clients/2.png" width="100$">
-                    </div>
-                    <div class="col-lg-12 col-md-12 mb-5">
-                      <img src="assets/clients/1.png" width="100$">
-                    </div>
-
-
-
-
-                  </div>
-                  </p>
-                </div>
-
-              </div>
-            </div>
-
-
-
-
-
-
-          </div>
-
-
-
-
-
-
-
+    <div class="row flex-lg-row-reverse   g-5 py-4 mb-1">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="assets/img/poster.png" class="d-block mx-lg-auto img-fluid" loading="lazy" style="max-height: 400px;" >
+      </div>
+      <div class="col-lg-6 pt-5">
+        <h1 class="display-5 fw-bold   lh-1 mb-3 text-white">Junior Inventor #1</h1>
+        <p class="lead  fs-4 text-white">
+          L'Atelier du robotique et du codage pour les enfants.<br />
+          Faites découvrir à vos enfants le plaisir d'apprendre la robotique et le codage de manière ludique et
+          créative. Pour les enfants de 11 à 18 ans.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScDHTBjlK-vS47PIAqmvuT1oUga8dujyQFChl_q3ukESLDBPQ/viewform"
+            class="btn btn-light text-primary btn-lg px-4 me-md-2">
+            S'inscrire
+          </a>
+          <button type="button" class="btn   btn-lg px-4 text-white" data-bs-toggle="modal"
+            data-bs-target="#moreinfomodal">Savoir plus</button>
 
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="modal fade" id="moreinfomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Plus de détails sur l'atelier</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+          <div class="card bg-secondary mb-3">
+            <div class="card-header bg-primary text-white "></div>
+            <div class="card-body ">
+              <h4 class="fw-bold">
+                Les objectifs de l’atelier
+              </h4>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Présenter les bases de la programmation et de l'informatique : Offrir aux enfants une façon amusante
+                et
+                pratique de découvrir le code et de comprendre son fonctionnement.
+              </li>
+              <li class="list-group-item">
+                Présenter les bases de la programmation et de l'informatique : Offrir aux enfants une façon amusante
+                et
+                pratique de découvrir le code et de comprendre son fonctionnement.
+              </li>
+              <li class="list-group-item">
+                Stimuler la pensée logique et la résolution de problèmes : Le code aide à développer la logique, la
+                créativité et la capacité à résoudre des problèmes.
+              </li>
+              <li class="list-group-item">
+                Encourager la curiosité pour les STEM (Science, Technologie, Ingénierie, Mathématiques) : Inviter
+                les enfants à explorer les métiers scientifiques et technologiques.
+              </li>
+              <li class="list-group-item">
+                Établir un environnement d'apprentissage collaboratif et ludique : Offrir aux enfants la possibilité
+                d'apprendre en s'amusant, tout en encourageant l'interaction et la coopération entre eux.
+              </li>
+            </ul>
+            <div class="card-footer text-muted">
+              Pour plus d'infos contacter nous par Whatsapp : <a target="_blank"
+                href="https://wa.me/+212612257894">+212612257894</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
+  <main class="container">
 
 
 
+    <div class="row">
+      <div class="col-12 col-lg-8 col-md-12 col-sm-12">
 
+
+        <div id="projects" class="mb-2 p-4">
+          <div class="card bg-secondary mb-3">
+            <div class="card-header bg-primary text-white ">Projets</div>
+            <div class="card-body text-center  ">
+              <p class="card-text "> 
+              </p> 
+            </div> 
+            <div class="card-footer text-muted">
+              Pour plus d'infos contacter nous par Whatsapp : <a target="_blank"
+                href="https://wa.me/+212612257894">+212612257894</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="nos-services" class="  p-4">
+          <div class="card bg-secondary mb-3">
+            <div class="card-header bg-primary text-white ">Nos services</div>
+            <div class="card-body">
+              <p class="card-text">
+                <span class="badge badge-pill border  border-primary text-primary">Conception graphique</span>
+                <span class="badge badge-pill border  border-primary text-primary">Dévelopement des siteweb</span>
+                <span class="badge badge-pill border  border-primary text-primary">Dévelopement des
+                  applications</span>
+                <span class="badge badge-pill border  border-primary text-primary">Ateliers de photographie et
+                  dessin</span>
+                <span class="badge badge-pill border  border-primary text-primary">Ateliers de coding et
+                  robotique</span>
+                <span class="badge badge-pill border  border-primary text-primary">Impression</span>
+              </p>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-text">
+              </p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div id="nos-clients" class="  p-4">
+          <div class="card bg-secondary mb-3">
+            <div class="card-header bg-primary text-white ">Nos clients</div>
+
+            <div class="card-body text-center">
+              <h4 class="fw-bold">Ils nous font confiance</h4>
+            </div>
+            <div class="card-body text-center">
+
+              <section class="customer-logos slider">
+                <div class="slide"><img src="assets/clients/5.png"></div>
+                <div class="slide"><img src="assets/clients/4.png"></div>
+                <div class="slide"><img src="assets/clients/3.png"></div>
+                <div class="slide"><img src="assets/clients/2.png"></div>
+                <div class="slide"><img src="assets/clients/1.png"></div>
+                <div class="slide"><img src="assets/clients/4.png"></div>
+                <div class="slide"><img src="assets/clients/3.png"></div>
+                <div class="slide"><img src="assets/clients/2.png"></div>
+                <div class="slide"><img src="assets/clients/1.png"></div>
+                <div class="slide"><img src="assets/clients/4.png"></div>
+                <div class="slide"><img src="assets/clients/3.png"></div>
+                <div class="slide"><img src="assets/clients/2.png"></div>
+                <div class="slide"><img src="assets/clients/1.png"></div>
+              </section> 
+            </div>
+          </div>
+        </div> 
+
+
+      </div>
+
+
+      <div class="col-12  col-lg-4 col-md-12 col-sm-12">
+        <div id="about" class=" p-4">
+          <div class="card bg-secondary mb-3">
+            <div class="card-header bg-primary text-white ">À propos - Qui somme nous?</div>
+            <div class="card-body">
+              <p class="card-text">
+                Tinkers est un centre qui offre des formations et ateliers et des services dans les domaines
+                digitales et artistique: Coding, Robotique, Design et Dessin, Photographie, Français, Anglais.
+              </p>
+              <hr>
+              <h4 class="fw-bold">Notre équipe</h4>
+              <div>
+                <p class="text-center">
+                  <img class="rounded-circle" src="assets/img/hicham.jpg" width="100" height="100">
+                </p>
+                <h5 class="fw-semibold text-center">Hicham El Kbadi</h5>
+                <p class="text-center">Graphiste, Photographer, Formateur</p>
+                <p class="text-center">
+                  <a target="_blank" class="btn btn-outline-primary" href="https://www.linkedin.com/in/hicham-el-kbadi/"
+                    role="button">LinkedIn</a>
+                </p>
+              </div>
+              <div>
+                <p class="text-center">
+                  <img class="rounded-circle" src="assets/img/soufiane.jpg" width="100" height="100">
+                </p>
+                <h5 class="fw-semibold text-center">Soufiane Gouiferda</h5>
+                <p class="text-center">Développeur informatique, Formateur</p>
+                <p class="text-center">
+                  <a target="_blank" class="btn btn-outline-primary" href="https://www.linkedin.com/in/gouiferda/"
+                    role="button">LinkedIn</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
   </main>
-
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
 </body>
 
 </html>
