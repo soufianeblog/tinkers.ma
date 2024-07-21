@@ -50,14 +50,51 @@
           <li class="nav-item">
             <a class="nav-link" href="#about">À propos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact</a>
+          </li>
         </ul>
         <div class="d-flex">
-          <a href="#contact-us" class="btn btn-outline-light">Contact</a>
+          <button   class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#devismodal">Demander un devis</button> 
         </div>
       </div>
     </div>
   </nav>
 
+  <div class="modal fade" id="devismodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold">
+            Demander un devis
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+          <div class="card bg-secondary mb-3">
+            <div class="card-header bg-primary text-white "></div>
+
+          
+              
+
+
+            <div class="card-footer text-muted">
+              Pour plus d'infos contacter nous par Whatsapp : <a target="_blank"
+                href="https://wa.me/+212612257894">+212612257894</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
